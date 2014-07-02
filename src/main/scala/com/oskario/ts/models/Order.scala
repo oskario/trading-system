@@ -1,3 +1,3 @@
 package com.oskario.ts.models
 
-case class Order(user: User, instrument: Instrument, price: BigDecimal, `type`: OrderType)
+case class Order(instrument: String, price: BigDecimal, volume: BigDecimal)
